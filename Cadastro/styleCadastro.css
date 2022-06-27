@@ -6,6 +6,7 @@ body{
 
 .boxDeEntrada{
     position:relative;
+    margin-bottom: 30px;
 }
 
 
@@ -22,12 +23,13 @@ body{
     width: 30%;
 }
 fieldset{
-    border: 3px solid rgba(68, 68, 217, 0.912);    
+    border: 3px solid #0D5188;
+    border-radius: 10px;    
 }
 legend{
-    border: 1px solid rgba(68, 68, 217, 0.912);
+    border: 1px solid #0D5188;
     padding: 10px;
-    background-color: rgba(68, 68, 217, 0.912);
+    background-color: #0D5188;
     border-radius: 5px;
 }
 div{
@@ -44,7 +46,8 @@ div{
     font-size: 15px;
     width: 100%;
     letter-spacing: 2px;
-    color:white
+    color:white;
+    
     
     
 }
@@ -62,7 +65,8 @@ div{
 .inputUser:valid ~ .labelInput{
     top: -20px;
     font-size: 12px;
-    color: rgba(20, 20, 136, 0.912)
+    color: #66C5E3;
+
 
 }
 
