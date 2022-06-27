@@ -86,3 +86,7 @@ option{
 #submit:hover{
     background-color: rgb(27, 27, 118);
 }
+a{
+    text-decoration: none;
+    color: white;
+}
