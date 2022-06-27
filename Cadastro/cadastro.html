@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "styleCadastro.css">
+    <title>Cadastro de produto</title>
+</head>
+<body>
+    <div class = "formulario">
+        <form action="">
+            <fieldset>
+                <legend>
+                    <strong>
+                        Formulário de reserva
+                    </strong> 
+                </legend>
+                <br>
+                <div class = "boxDeEntrada">
+                    <input type="text" name = "nome" id = "nome" class = "inputUser" required>
+                    <label for="nome" class = "labelInput">Nome do Produto</label>
+                </div>
+                <div class = "boxDeEntrada">
+                    <input type="text" name = "codigo" id = "codigo" class = "inputUser" required>
+                    <label for="cpf" class = "labelInput"> Código do produto</label>
+                </div>
+                <div class = "boxDeEntrada">
+                    <input type="number" name = "Valor unitario de revenda" id = "valor-revenda" class = "inputUser" required>
+                    <label for="valor-revenda" class = "labelInput">Valor revenda</label>
+                </div>
+                <div class = "boxDeEntrada">
+                    <input type="email" name = "email" id = "email" class = "inputUser" required> 
+                    <label for="email" class = "labelInput">Email</label>
+                </div>
+                <p><strong>Genero</strong>:</p>
+                <input type="radio" name="genero" id="feminino" value="feminino" required>
+                <label for="feminino">Feminino</label>
+                <br>
+                <input type="radio" name="genero" id="masculino" value="masculino" required>
+                <label for="masculino">Masculino</label>
+                <br>
+                <input type="radio" name="genero" id="outros" value="outros" required>
+                <label for="outros">Outros</label>
+                <br>
+                <p><strong>Categoria de quarto: </strong></p>
+                <input type="radio" name="categoria" id="solteiro" value="solteiro" required>
+                <label for="solteiro">Solteiro</label>
+                <br>
+                <input type="radio" name="categoria" id="duploSolteiro" value="duploSolteiro" required>
+                <label for="duploSolteiro">Duplo Solteiro</label>
+                <br>
+                <input type="radio" name="categoria" id="casal" value="casal" required>
+                <label for="casal">Casal</label>
+                <br>
+                <div class = "boxDeEntrada">
+                    <input type="number" name="quarto" id="quarto" class = "inputUser" required>
+                    <label for="quarto" class = "labelInput">Número do Quarto:</label>
+                    
+                </div>
+                
+                <input type="submit" name = "submit" id = "submit">
+            </fieldset>
+        </form>
+    </div>
+    
+</body>
+</html>
