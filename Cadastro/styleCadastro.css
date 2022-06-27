@@ -1,6 +1,6 @@
 body{
     font-family:Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(90grad, blue, white);
+    background-image: linear-gradient(90deg, #0D5188, #66C5E3);
     
 }
 
@@ -22,12 +22,12 @@ body{
     width: 30%;
 }
 fieldset{
-    border: 3px solid rgba(20, 20, 136, 0.912);    
+    border: 3px solid rgba(68, 68, 217, 0.912);    
 }
 legend{
-    border: 1px solid rgba(20, 20, 136, 0.912);
+    border: 1px solid rgba(68, 68, 217, 0.912);
     padding: 10px;
-    background-color: rgba(20, 20, 136, 0.912);
+    background-color: rgba(68, 68, 217, 0.912);
     border-radius: 5px;
 }
 div{
@@ -68,7 +68,7 @@ div{
 
 
 #submit{
-    background-color: darkblue;
+    background-color: rgba(68, 68, 217, 0.912);
     width: 100%;
     padding: 15px;
     border: none;
