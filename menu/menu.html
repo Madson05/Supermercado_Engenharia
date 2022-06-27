@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Supermercado</title>
+    <link rel="stylesheet" href="styleMenu.css">
+    <link rel="stylesheet" href="menuComandos.js">
+</head>
+<body>
+    <nav id='menu'>
+        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+        <ul>
+          <li><a href='menu.html'>Menu</a></li>
+          <li><a class='dropdown-arrow' href='menuProdutos.html'>Produto</a>
+            <ul class='sub-menus'>
+              <li><a href='../Cadastro/cadastro.html'>Cadastrar Produto</a></li>
+            </ul>
+          </li>
+          <li><a class='dropdown-arrow' href='menuVendas.html'>Vendas</a>
+            <ul class='sub-menus'>
+              <li><a href=''>Cadastrar Venda</a></li>
+            </ul>
+          </li>
+          <li class="login"><a href="../login/login.html">Log out</a></li>
+          
+      </nav>
+    
+</body>
+</html>
