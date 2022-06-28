@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href = "styleCadastro.css">
     <title>Cadastro de produto</title>
+    <script src="script.js"></script>
 </head>
 <body>
+    <a href="../menu/menu.html"><img src="../imagens/logo_sem_fundo.png"></a>
     <div class = "formulario">
         <form action="">
             <fieldset>
@@ -25,12 +27,12 @@
                     <label for="codigo" class = "labelInput"> Código do produto</label>
                 </div>
                 <div class = "boxDeEntrada">
-                    <input type="number" name = "Valor unitario de revenda" min="0" id = "valor-revenda" class = "inputUser" required>
+                    <input type="text" name = "Valor unitario de revenda" min="0" id = "valor-revenda" class = "inputUser" required>
                     <label for="valor-revenda" class = "labelInput">Valor revenda (R$) </label>
                 </div>
                 
                 <div class = "boxDeEntrada">
-                    <input type="number" name = "valor-compra" 
+                    <input type="text" name = "valor-compra" 
                     min="0" id = "valor-compra" class = "inputUser" required>
                     <label for="valor-compra" class = "labelInput">Valor unitario de compra (R$) </label>
                 </div>
@@ -39,7 +41,8 @@
                     <label for="estoque" class = "labelInput">Quantidade de produtos em estoque </label>
                 </div>
                 
-                <input type="submit" name = "submit" id = "submit">
+                <input type="submit" name = "submit" id = "submit" >
+                
             </fieldset>
         </form>
     </div>
